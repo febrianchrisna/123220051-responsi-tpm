@@ -98,7 +98,7 @@ class DatabaseHelper {
         'language': movie.language,
         'duration': movie.duration,
         'director': movie.director,
-        'cast': movie.cast.join(','), // Convert List to comma-separated string
+        'cast': movie.cast.join(','), 
         'username': username,
       });
     }
